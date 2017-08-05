@@ -10,4 +10,5 @@ else if(n>=1)
 printf("the num is positive");
 else
 printf("the num is negative");
+return 0;
 }
