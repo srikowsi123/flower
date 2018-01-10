@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-int base, exponent;
-int res= 1;
+int b, e;
+int r= 1;
 printf("Enter a base number: ");
-scanf("%d", &base);
+scanf("%d", &b);
 printf("Enter an exponent: ");
-scanf("%d", &exponent);
-while (exponent != 0)
+scanf("%d", &e);
+while (e != 0)
 {
-res*= base;
---exponent;
+r*= b;
+--e;
 }
-printf("Answer = %d", res);
+printf("Answer = %d", r);
 return 0;
 }
