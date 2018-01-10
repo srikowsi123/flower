@@ -1,16 +1,17 @@
 #include<stdio.h> 
 int main()
 {
-int m,n,rem,i;
+int a,b,r,i;
 printf("   Give the First number for the Range :");
-scanf("%d",&m);
+scanf("%d",&a);
 printf("   Give the Final number for the Range :");
-scanf("%d",&n);
-printf("\n The Even numbers between %d and %d are ",m,n); 
-for(i=m; i<=n; ++i){
-rem = i % 2;
-if(rem == 0)
-printf("%d",i);
+scanf("%d",&b);
+printf("\n The Even numbers between %d and %d are ",a,b); 
+for(i=a; i<=b; ++i)
+{
+r = i % 2;
+if(r == 0)
+printf("%d \n",i);
 }
 return 0; 
 } 
