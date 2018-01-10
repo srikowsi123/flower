@@ -17,5 +17,6 @@ else
 {
 printf(" the number is not amstrong ");
 }
+}
 return 0;
 }
