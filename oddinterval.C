@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-int num,m ,n;
+int n,a,b;
 printf("enter the range:");
-scanf("%d %d",&m,&n);
+scanf("%d %d",&a,&b);
 printf("Print Odd Numbers in a given range m to n:");
-for (num = m; num <= n; num++)
+for(n=a; n<= b; n++)
 {
-if (num % 2 == 1)
-printf ("%d ", num);
+if (n%2==1)
+printf("%d",n);
 }
 return 0;
 }
