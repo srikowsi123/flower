@@ -16,5 +16,5 @@ else
 {
 printf("%d is greater",c);
 }
-return o;
+return 0;
 }
