@@ -1,24 +1,24 @@
 #include <stdio.h>
 int main()
 {
-int m,n, i,temp;
+int a,b, i,t;
 printf("Enter two numbers(intervals): ");
-scanf("%d %d", &m, &n);
-printf("Prime numbers between %d and %d are: ",m,n);
-while (m<n)
+scanf("%d %d", &a, &b);
+printf("Prime numbers between %d and %d are: ",a,b);
+while (a<b)
 {
-temp= 0;
-for(i = 2; i <= m/2; ++i)
+t= 0;
+for(i = 2; i <= a/2; ++i)
 {
-if(m% i == 0)
+if(a% i == 0)
 {
-temp= 1;
+t= 1;
 break;
 }
 }
-if (temp== 0)
-printf("%d ",m);
-++m;
+if (t== 0)
+printf("%d ",a);
+++a;
 }
 return 0;
 }
