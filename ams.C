@@ -5,7 +5,7 @@ int n,rem,result=0;
 printf("enter the number:");
 scanf("%d",&n);
 rem=n%10;
-result=result+rem*rem*rem;
+result=result+(rem*rem*rem);
 n=n/10;
 if(result==n)
 {
