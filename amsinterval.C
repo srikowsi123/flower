@@ -3,7 +3,7 @@
   int main()
   {
   int a,b, i, t1, t2, rem, n = 0, r= 0;
-  printf("Enter two numbers(intervals): ");
+  printf("Enter two numbers: ");
   scanf("%d %d", &a, &b);
   printf("Armstrong numbers between %d an %d are: ", a,b);
   for(i = a+ 1; i <b; ++i)
