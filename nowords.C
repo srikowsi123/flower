@@ -1,20 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    char a[20];
-    int i,words;
-    printf("enter the string");
-    for(i=0;i<n)
-    words=1;
-    while(a[i]!='\n')
+    char s[200];
+    int count = 0, i;
+    printf("enter the string\n");
+    scanf("%[^\n]s", s);
+    for (i = 0;s[i] != '\0';i++)
     {
-    	if(a[i]==' '||a[i]=='\n'||a[i]=='\t')
-        {
-            words++;
-        }
-
-        i++;
+        if (s[i] == ' ')
+        count++;    
     }
-	printf("total no.of words: %d",words);
-	return 0;
+    printf("number of words in given string are: %d\n", count + 1);
 }
