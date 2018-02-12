@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,t;
+	int p,q,t;
 	printf("enter the values:");
-	scanf("%d %d",&a,&b);
-  t=a;
-  a=b;
-  b=t;
-	printf("ater swapping:%d %d",a,b);
+	scanf("%d %d",&p,&q);
+  t=p;
+  p=q;
+  q=t;
+	printf("ater swapping:%d %d",p,q);
 	return 0;
 }
