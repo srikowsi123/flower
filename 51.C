@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main ( ){ 
-    int num, dig1, dig2, dig3, dig4, dig5;
-    printf("Enter a 5 digit whole number: ");
-    scanf("%d", &num); 
-    dig5 = num % 10;   
-    num = num / 10;    
-    dig4 = num % 10;   
-    num = num / 10;    
-    dig3 = num % 10;   
-    num = num / 10;    
-    dig2 = num % 10;  
-    num = num / 10;
-    dig1 = num % 10;   
-    printf("%d   %d   %d   %d   %d\n", dig1, dig2, dig3, dig4, dig5);
+    int n, d1, d2, d3, d4, d5;
+    printf("Enter a number: ");
+    scanf("%d", &n); 
+    d5 = n % 10;   
+    n = n / 10;    
+    d4 = n % 10;   
+    n = n / 10;    
+    d3 = n % 10;   
+    n = n / 10;    
+    d2 = n % 10;  
+    n = n / 10;
+    d1 = n % 10;   
+    printf("%d   %d   %d   %d   %d\n", d1, d2, d3, d4, d5);
     return 0;
 }
