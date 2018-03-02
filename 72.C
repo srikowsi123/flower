@@ -8,16 +8,18 @@ gets(s);
 m=strlen(s);
 for(i=0;i<m;i++)
 {
-if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u')
+if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u' || s[i]=='A' || s[i]=='E' || s[i]=='I' || s[i]=='O' || s[i]=='U')
+{
+t=1;
+}
+}
+if(t==1)
 {
 printf("yes");
-t=1;
-break;
 }
-}
-if(t==0)
+else
 {
-printf("no");
+ printf("no");
 }
 return 0;
 }
