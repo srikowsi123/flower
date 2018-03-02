@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+float a;
+int b;
+printf("enter the number");
+scanf("%f",&a);
+b=a+1;
+printf("%d",b);
+return 0;
+}
