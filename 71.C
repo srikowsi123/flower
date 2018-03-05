@@ -11,11 +11,11 @@ strrev(s1);
 p=strcmp(s1,s2);
 if(p==0)
 {
-printf("palindrome \n");
+printf("yes \n");
 }
 else
 {
-printf("not a palindrome \n");
+printf("no \n");
 }
 return 0;
 }
