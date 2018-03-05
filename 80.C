@@ -1,25 +1,28 @@
 #include <stdio.h>
-
-int main(void) 
+int main() 
 {
-	int num,rem,rev=0;
+	int n,rem,rev=0;
 	printf("enter the number:");
-	scanf("%d",&num);
-	while(num!=0)
+	scanf("%d",&n);
+	while(n!=0)
 	{
-		rem=num%10;
-		rev=(rev*10)+rem;
-		num=num/10;
+	rem=n%10;
+	rev=(rev*10)+rem;
+	n=n/10;
 	}
-	num=rev;
-	while(num!=0)
+	n=rev;
+	while(n!=0)
 	{
-		rem=num%10;
-		if(rem%2==1)
-		{
-		printf("%d ",rem);
-		}
-		num=num/10;
+	rem=n%10;
+	if(rem%2==0)
+	{
+	printf("");
+	}
+	else
+	{
+	printf("%d \n",rem);
+	}
+	n=n/10;
 	}
 	return 0;
 }
