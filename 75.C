@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include<string.h>
 int main() 
+	
 {
-	char s[30];
-	int l,i;
+	char s[100];
+	int l;
 	printf("enter the string:");
 	scanf("%s",s);
 	l=strlen(s);
