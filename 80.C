@@ -20,7 +20,7 @@ int main()
 	}
 	else
 	{
-	printf("%d \n",rem);
+	printf("%d \t",rem);
 	}
 	n=n/10;
 	}
