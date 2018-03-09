@@ -6,6 +6,6 @@ double ar;
 printf("enter the values:");
 scanf("%f %f",&a,&b);
 ar=a*b;
-printf("area: %f",ar);
+printf("area: %0.5f",ar);
 return 0;
 }
