@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(void) 
  {
-int n,rem,rev=0;
- int res;
+ int n,rem,rev=0;
  printf("\n enter the number:");
  scanf("%d",&n);
  while(n!=0)
