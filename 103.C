@@ -13,5 +13,5 @@ if(s[i]==' ')
 s[i+1]=toupper(s[i+1]);
 }
 printf("\n%s",s);
-return 0;
+return 0; 
 }
