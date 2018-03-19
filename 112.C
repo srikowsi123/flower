@@ -17,11 +17,11 @@ break;
 }
 if(t==1)
 {
-printf("\nyes");
+printf("yes");
 }	
 else
 {
-printf("\nno");
+printf("no");
 }
 return 0;
 }
